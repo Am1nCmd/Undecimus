@@ -117,7 +117,7 @@ UI by [@DennisBednarz](https://twitter.com/DennisBednarz) & [Samg_is_a_Ninja](ht
 * V1: Fix the RootFS Restore for all supported versions, fix the snapshot related issues, make the settings tab match with the rest of the UI, more minor fixes and get this out of beta (Known issues: Some Beta firmwares are still broken):  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.ipa)
 * V1.0.1: DISABLE THE ROOTFS RESTORE ON IOS 11.0 - 11.1.2 AND ATTEMPT TO FIX SOME OTHERS (Known issues: Some Beta firmwares are still broken):  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.0.1.ipa)
 * V1.0.2: Bulletproof the RootFS Restore for iOS 11.0 - 11.2.6 (Known issues: Some Beta firmwares are still broken):  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.0.2.ipa)
-* V1.0.3: Fix the Beta firmware support and the resources error:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus.ipa)
+* V1.0.3: Fix the Beta firmware support:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus.ipa)
 
 ## Special Thanks
 * [@i41nbeer](https://twitter.com/i41nbeer) for triple_fetch, async_wake, empty_list & multi_path
