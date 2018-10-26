@@ -106,18 +106,18 @@ UI by [@DennisBednarz](https://twitter.com/DennisBednarz) & [Samg_is_a_Ninja](ht
 
 ## Changelog
 * RC1: Initial release: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC1.ipa)
-* RC2: Add the dynastic repo by default and fix the unsupported error on some devices running the iOS 11.4 Beta: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC2.ipa)
-* RC3: Add an option to restore the RootFS, don't reset the preferences when switching from other jailbreaks and fix several errors: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC3.ipa)
-* RC4: Add a label to display the uptime, remove the custom fonts as they are the same with the system fonts, enable logging again and include spawn in the PATH: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC4.ipa)
-* RC5: Attempt to fix the videosubscriptionsd crashes, fix the Unsupported error and fix the Update Checker: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC5.ipa)
-* RC6: Enable logging, improve the version checks, improve the memory management and fix the MP exploit: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC6.ipa)
-* RC7: Fix the RootFS Restore on iOS 11.2  - 11.2.6 and improve the reliability of the MP Exploit's clean up: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC7.ipa)
-* RC8: Fix the snapshot errors, add a warning for the iOS 11.0-11.1.2 and 11.4 Beta 1 - 3 devices and clean up the code:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC8.ipa)
-* RC9: Fix the "Device will be restarted" loop, add even more detailed error messages and add an option to increase the memory limit to improve the stability and add compatibility layer to work correctly with some tweaks that were specifically made for the other jailbreaks:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus.ipa)
-* V1: Fix the RootFS Restore for all supported versions, fix the snapshot related issues, make the settings tab match with the rest of the UI, more minor fixes and get this out of beta (Known issues: Some Beta firmwares are still broken):  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.ipa)
-* V1.0.1: DISABLE THE ROOTFS RESTORE ON IOS 11.0 - 11.1.2 AND ATTEMPT TO FIX SOME OTHERS (Known issues: Some Beta firmwares are still broken):  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.0.1.ipa)
-* V1.0.2: Bulletproof the RootFS Restore for iOS 11.0 - 11.2.6 (Known issues: Some Beta firmwares are still broken):  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.0.2.ipa)
-* V1.0.3: Fix the Beta firmware support:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus.ipa)
+* RC2: Add the dynastic repo by default and fix a bug in firmware checker: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC2.ipa)
+* RC3: Add a switch to manually enable restoring RootFS, stop erasing user preferences when restoring RootFS and fix bugs [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC3.ipa)
+* RC4: Add a label to display the uptime, a label to display the app's version number, spawn to the PATH and stop bundling system fonts: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC4.ipa)
+* RC5: Run videosubscriptionsd in the jailed state, fix a bug in firmware and update checker: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC5.ipa)
+* RC6: Start logging again, improve update checker and fix multi_path: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC6.ipa)
+* RC7: Fix a bug in RootFS Restore and multi_path: [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC7.ipa)
+* RC8: Fix a bug in RootFS Remount and add a work in progress warning for some firmwares:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-RC8.ipa)
+* RC9: Fix a bug in RootFS Remount, add even more detailed error messages and add a switch to increase the memory limit to improve the stability and improve the compatibility layer to work correctly with some tweaks that were specifically made for the other jailbreaks:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus.ipa)
+* V1: Fix a bug in RootFS Restore and Remount, make the settings tab match with the rest of the UI and fix bugs:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.ipa)
+* V1.0.1: Disable the RootFS Restore for the unstable versions:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.0.1.ipa)
+* V1.0.2: Enable and fix the RootFS Restore for all versions:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus-V1.0.2.ipa)
+* V1.0.3: Fix the beta firmwares:  [Download (IPA)](https://github.com/pwn20wndstuff/Undecimus/raw/master/Resources/Undecimus.ipa)
 
 ## Special Thanks
 * [@i41nbeer](https://twitter.com/i41nbeer) for triple_fetch, async_wake, empty_list & multi_path
